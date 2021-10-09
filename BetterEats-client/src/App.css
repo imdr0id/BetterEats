@@ -1,0 +1,68 @@
+/* @import '~antd/dist/antd.css'; */
+
+.login-form {
+  /* text-align: center; */
+  max-width: 300px;
+}
+
+.login-form-forgot {
+  float: right;
+}
+
+.login-form-button {
+  width: 100%;
+}
+
+.ant-typography {
+  padding-left: 10px;
+}
+
+.review-form {
+  max-width: 900px;
+}
+
+.review-form-button {
+  width: 100%;
+}
+
+/* add pointer to tables */
+
+.entree-table .ant-table-tbody>tr:hover:not(.ant-table-expanded-row)>td {
+  cursor: pointer;
+}
+
+.form {
+  background-color: #ffffff;
+  display: flex;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: column;
+  border-radius: 20px;
+  box-sizing: border-box;
+  height: 500px;
+  padding: 20px;
+  width: 320px;
+}
+.form-item{
+  
+}
+
+.submit {
+  background-color: #08d;
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  color: #eee;
+  cursor: pointer;
+  font-size: 18px;
+  height: 50px;
+  margin-top: 38px;
+  /* outline: 0; */
+  text-align: center;
+  width: 100%;
+}
+
+.submit:active {
+  background-color: #06b;
+}
